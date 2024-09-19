@@ -40,6 +40,7 @@ func _init(obj, l, c, w):
 	_curve.name = l
 	_curve.color = c
 	_curve.width = w
+	color = c
 	_graph.get_node("PlotArea").add_child(_curve)
 
 
